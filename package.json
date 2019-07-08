@@ -2,11 +2,6 @@
   "name": "leveldown",
   "description": "A low-level Node.js LevelDB binding",
   "version": "2.1.1",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/zxj028/leveldown.git"
-  },
-  "homepage": "https://github.com/zxj028/leveldown",
   "keywords": [
     "leveldb",
     "level"
@@ -37,7 +32,6 @@
     "tape": "^4.5.1"
   },
   "license": "MIT",
-  "gypfile": true,
   "engines": {
     "node": ">=4"
   }
