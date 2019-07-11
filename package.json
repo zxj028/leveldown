@@ -29,8 +29,6 @@
   "engines": {
     "node": ">=4"
   },
-  "gypfile": true,
-  "homepage": "https://github.com/level/leveldown",
   "keywords": [
     "leveldb",
     "level"
@@ -38,10 +36,6 @@
   "license": "MIT",
   "main": "leveldown.js",
   "name": "leveldown",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/level/leveldown.git"
-  },
   "typings": "leveldown.d.ts",
   "version": "2.1.1"
 }
