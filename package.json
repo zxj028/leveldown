@@ -61,7 +61,7 @@
     "install": "prebuild-install || node-gyp rebuild",
     "test": "(tape test/*-test.js | faucet) && prebuild-ci",
     "rebuild": "prebuild --compile",
-    "prebuild": "prebuild --all --strip --verbose"
+    "prebuild": "prebuild --t electron@1.7.9 --strip --verbose"
   },
   "license": "MIT",
   "gypfile": true,
