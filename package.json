@@ -58,7 +58,7 @@
     "tape": "^4.5.1"
   },
   "scripts": {
-    "install": "prebuild-install || node-gyp rebuild",
+    "install": "prebuild-install -t electron@1.7.9 || node-gyp rebuild",
     "test": "(tape test/*-test.js | faucet) && prebuild-ci",
     "rebuild": "prebuild --compile",
     "prebuild": "prebuild --t electron@1.7.9 --strip --verbose"
